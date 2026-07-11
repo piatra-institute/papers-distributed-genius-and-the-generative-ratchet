@@ -1,0 +1,9 @@
+[project]
+name = "distributed-genius-sim"
+version = "0.1.0"
+description = "Illustrative three-frontier model for Distributed Genius and the Generative Ratchet: production, competence, and judgment over a course of practice under a finished-output tool, a structured/fading tool, and no tool, with the tool-removal test that separates genuine from false ratcheting"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+]
