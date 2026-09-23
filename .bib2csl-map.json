@@ -1,0 +1,223 @@
+[
+ {
+  "id": "bastani2025",
+  "families": [
+   "Bastani",
+   "Bastani",
+   "Sungu",
+   "Ge",
+   "Kabakcı",
+   "Mariman"
+  ],
+  "authors_text": "Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R.",
+  "year": "2025",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "bjork2011",
+  "families": [
+   "Bjork",
+   "Bjork"
+  ],
+  "authors_text": "Bjork, E. L., & Bjork, R. A.",
+  "year": "2011",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "boyd1985",
+  "families": [
+   "Boyd",
+   "Richerson"
+  ],
+  "authors_text": "Boyd, R., & Richerson, P. J.",
+  "year": "1985",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "brynjolfsson2025",
+  "families": [
+   "Brynjolfsson",
+   "Li",
+   "Raymond"
+  ],
+  "authors_text": "Brynjolfsson, E., Li, D., & Raymond, L. R.",
+  "year": "2025",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "clark1998",
+  "families": [
+   "Clark",
+   "Chalmers"
+  ],
+  "authors_text": "Clark, A., & Chalmers, D.",
+  "year": "1998",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "collins1989",
+  "families": [
+   "Collins",
+   "Brown",
+   "Newman"
+  ],
+  "authors_text": "Collins, A., Brown, J. S., & Newman, S. E.",
+  "year": "1989",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "csikszentmihalyi1999",
+  "families": [
+   "Csikszentmihalyi"
+  ],
+  "authors_text": "Csikszentmihalyi, M.",
+  "year": "1999",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "doshi2024",
+  "families": [
+   "Doshi",
+   "Hauser"
+  ],
+  "authors_text": "Doshi, A. R., & Hauser, O. P.",
+  "year": "2024",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "ericsson1993",
+  "families": [
+   "Ericsson",
+   "Krampe",
+   "Tesch-Römer"
+  ],
+  "authors_text": "Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C.",
+  "year": "1993",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "henrich2016",
+  "families": [
+   "Henrich"
+  ],
+  "authors_text": "Henrich, J.",
+  "year": "2016",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "hutchins1995",
+  "families": [
+   "Hutchins"
+  ],
+  "authors_text": "Hutchins, E.",
+  "year": "1995",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "kapur2008",
+  "families": [
+   "Kapur"
+  ],
+  "authors_text": "Kapur, M.",
+  "year": "2008",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "kauffman2000",
+  "families": [
+   "Kauffman"
+  ],
+  "authors_text": "Kauffman, S. A.",
+  "year": "2000",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "kestin2025",
+  "families": [
+   "Kestin",
+   "Miller",
+   "Klales",
+   "Milbourne",
+   "Ponti"
+  ],
+  "authors_text": "Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G.",
+  "year": "2025",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "macnamara2014",
+  "families": [
+   "Macnamara",
+   "Hambrick",
+   "Oswald"
+  ],
+  "authors_text": "Macnamara, B. N., Hambrick, D. Z., & Oswald, F. L.",
+  "year": "2014",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "shumailov2024",
+  "families": [
+   "Shumailov",
+   "Shumaylov",
+   "Zhao",
+   "Papernot",
+   "Anderson",
+   "Gal"
+  ],
+  "authors_text": "Shumailov, I., Shumaylov, Z., Zhao, Y., Papernot, N., Anderson, R., & Gal, Y.",
+  "year": "2024",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "sweller1988",
+  "families": [
+   "Sweller"
+  ],
+  "authors_text": "Sweller, J.",
+  "year": "1988",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "tennie2009",
+  "families": [
+   "Tennie",
+   "Call",
+   "Tomasello"
+  ],
+  "authors_text": "Tennie, C., Call, J., & Tomasello, M.",
+  "year": "2009",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "tomasello1993",
+  "families": [
+   "Tomasello",
+   "Kruger",
+   "Ratner"
+  ],
+  "authors_text": "Tomasello, M., Kruger, A. C., & Ratner, H. H.",
+  "year": "1993",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "vygotsky1978",
+  "families": [
+   "Vygotsky"
+  ],
+  "authors_text": "Vygotsky, L. S.",
+  "year": "1978",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "wood1976",
+  "families": [
+   "Wood",
+   "Bruner",
+   "Ross"
+  ],
+  "authors_text": "Wood, D., Bruner, J. S., & Ross, G.",
+  "year": "1976",
+  "status": "VERIFIED-CROSSREF"
+ }
+]

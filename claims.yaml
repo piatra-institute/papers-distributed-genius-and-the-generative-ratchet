@@ -1,0 +1,683 @@
+schema: 1
+coverage: reviewed
+reviewed_manuscript_sha256: aaa85588de79b64aabbf26b810d05fa2d3165bdfaae6d4527be18ca3224d118b
+claims:
+- id: abs-prod
+  kind: computation
+  passage: In an illustrative model with stipulated parameters, a finished-output tool and a fading structured
+    tool reach the same production frontier (0.87), but competence ends at 0.15 and 0.84 respectively;
+    on tool removal, output falls by 83.1% and 10.3%; the fraction of the production advance retained
+    as capability is 0.10 and 0.99; and the ordering holds in all of 2,000 seeded parameter perturbations.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /summary/production_finished_frontier
+    reported: '0.87'
+    units: production frontier
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: abs-c-fin
+  kind: computation
+  passage: In an illustrative model with stipulated parameters, a finished-output tool and a fading structured
+    tool reach the same production frontier (0.87), but competence ends at 0.15 and 0.84 respectively;
+    on tool removal, output falls by 83.1% and 10.3%; the fraction of the production advance retained
+    as capability is 0.10 and 0.99; and the ordering holds in all of 2,000 seeded parameter perturbations.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /summary/competence_finished_final
+    reported: '0.15'
+    units: competence frontier
+    conditions: illustrative model, stipulated parameters, 30 sessions, finished-output tool
+    decimals: 2
+- id: abs-c-str
+  kind: computation
+  passage: In an illustrative model with stipulated parameters, a finished-output tool and a fading structured
+    tool reach the same production frontier (0.87), but competence ends at 0.15 and 0.84 respectively;
+    on tool removal, output falls by 83.1% and 10.3%; the fraction of the production advance retained
+    as capability is 0.10 and 0.99; and the ordering holds in all of 2,000 seeded parameter perturbations.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /summary/competence_structured_final
+    reported: '0.84'
+    units: competence frontier
+    conditions: illustrative model, stipulated parameters, 30 sessions, structured fading tool
+    decimals: 2
+- id: abs-col-fin
+  kind: computation
+  passage: In an illustrative model with stipulated parameters, a finished-output tool and a fading structured
+    tool reach the same production frontier (0.87), but competence ends at 0.15 and 0.84 respectively;
+    on tool removal, output falls by 83.1% and 10.3%; the fraction of the production advance retained
+    as capability is 0.10 and 0.99; and the ordering holds in all of 2,000 seeded parameter perturbations.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/finished_output/collapse_pct
+    reported: 83.1%
+    units: percent fall in output on tool removal
+    conditions: illustrative model, stipulated parameters, 30 sessions, evaluation assistance 0.9
+    decimals: 1
+    scale: 1
+- id: abs-col-str
+  kind: computation
+  passage: In an illustrative model with stipulated parameters, a finished-output tool and a fading structured
+    tool reach the same production frontier (0.87), but competence ends at 0.15 and 0.84 respectively;
+    on tool removal, output falls by 83.1% and 10.3%; the fraction of the production advance retained
+    as capability is 0.10 and 0.99; and the ordering holds in all of 2,000 seeded parameter perturbations.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/structured_fading/collapse_pct
+    reported: 10.3%
+    units: percent fall in output on tool removal
+    conditions: illustrative model, stipulated parameters, 30 sessions, evaluation assistance 0.9
+    decimals: 1
+    scale: 1
+- id: abs-grf-fin
+  kind: computation
+  passage: In an illustrative model with stipulated parameters, a finished-output tool and a fading structured
+    tool reach the same production frontier (0.87), but competence ends at 0.15 and 0.84 respectively;
+    on tool removal, output falls by 83.1% and 10.3%; the fraction of the production advance retained
+    as capability is 0.10 and 0.99; and the ordering holds in all of 2,000 seeded parameter perturbations.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /summary/grf_finished
+    reported: '0.10'
+    units: incorporation ratio
+    conditions: illustrative model, stipulated parameters, 30 sessions, lambda 0.5
+    decimals: 2
+- id: abs-grf-str
+  kind: computation
+  passage: In an illustrative model with stipulated parameters, a finished-output tool and a fading structured
+    tool reach the same production frontier (0.87), but competence ends at 0.15 and 0.84 respectively;
+    on tool removal, output falls by 83.1% and 10.3%; the fraction of the production advance retained
+    as capability is 0.10 and 0.99; and the ordering holds in all of 2,000 seeded parameter perturbations.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /summary/grf_structured
+    reported: '0.99'
+    units: incorporation ratio
+    conditions: illustrative model, stipulated parameters, 30 sessions, lambda 0.5
+    decimals: 2
+- id: abs-draws
+  kind: computation
+  passage: In an illustrative model with stipulated parameters, a finished-output tool and a fading structured
+    tool reach the same production frontier (0.87), but competence ends at 0.15 and 0.84 respectively;
+    on tool removal, output falls by 83.1% and 10.3%; the fraction of the production advance retained
+    as capability is 0.10 and 0.99; and the ordering holds in all of 2,000 seeded parameter perturbations.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /robustness/n_draws
+    reported: 2,000
+    units: parameter perturbations
+    conditions: jitter 15 percent, seed 20260711
+    decimals: 0
+- id: cap-left-p
+  kind: computation
+  passage: 'Left: under a finished-output tool with constant assistance, production stays near 0.87 while
+    competence rises only to 0.15, and the gap (shaded) persists.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /summary/production_finished_frontier
+    reported: '0.87'
+    units: production frontier
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: cap-left-c
+  kind: computation
+  passage: 'Left: under a finished-output tool with constant assistance, production stays near 0.87 while
+    competence rises only to 0.15, and the gap (shaded) persists.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /summary/competence_finished_final
+    reported: '0.15'
+    units: competence frontier
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: cap-centre
+  kind: computation
+  passage: 'Centre: under a structured tool whose assistance fades to zero, competence rises to 0.84 and
+    the gap closes.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /summary/competence_structured_final
+    reported: '0.84'
+    units: competence frontier
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: cap-a
+  kind: computation
+  passage: 'Right: output at course end with the tool at a common assistance level $a = 0.9$ and with
+    the tool removed; the fall is 83% for the finished-output learner, 10% for the structured-fading learner,
+    and 24% for the no-tool learner.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /params/a_eval
+    reported: '0.9'
+    units: assistance level
+    conditions: evaluation setting
+    decimals: 1
+- id: cap-fin
+  kind: computation
+  passage: 'Right: output at course end with the tool at a common assistance level $a = 0.9$ and with
+    the tool removed; the fall is 83% for the finished-output learner, 10% for the structured-fading learner,
+    and 24% for the no-tool learner.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/finished_output/collapse_pct
+    reported: 83%
+    units: percent fall on removal
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 0
+    scale: 1
+- id: cap-str
+  kind: computation
+  passage: 'Right: output at course end with the tool at a common assistance level $a = 0.9$ and with
+    the tool removed; the fall is 83% for the finished-output learner, 10% for the structured-fading learner,
+    and 24% for the no-tool learner.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/structured_fading/collapse_pct
+    reported: 10%
+    units: percent fall on removal
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 0
+    scale: 1
+- id: cap-none
+  kind: computation
+  passage: 'Right: output at course end with the tool at a common assistance level $a = 0.9$ and with
+    the tool removed; the fall is 83% for the finished-output learner, 10% for the structured-fading learner,
+    and 24% for the no-tool learner.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/no_tool/collapse_pct
+    reported: 24%
+    units: percent fall on removal
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 0
+    scale: 1
+- id: c0
+  kind: computation
+  passage: A learner has a competence frontier $C$ and a judgment frontier $J$, each starting at $0.10$
+    and bounded above by $1$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /params/C0
+    reported: '0.10'
+    units: initial competence
+    conditions: stipulated
+    decimals: 2
+- id: j0
+  kind: computation
+  passage: A learner has a competence frontier $C$ and a judgment frontier $J$, each starting at $0.10$
+    and bounded above by $1$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /params/J0
+    reported: '0.10'
+    units: initial judgment
+    conditions: stipulated
+    decimals: 2
+- id: kappa
+  kind: computation
+  passage: Production is an algebraic function of competence and the current assistance $a$, $P = C +
+    a\,(\kappa - C)$, with tool ceiling $\kappa = 0.95$, so that at full assistance the learner produces
+    near the tool's level regardless of their own, and at zero assistance production equals competence.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /params/kappa
+    reported: '0.95'
+    units: tool ceiling
+    conditions: stipulated
+    decimals: 2
+- id: sec-prod-fin
+  kind: computation
+  passage: Both tools reach essentially the same production frontier, $0.87$, so any assessment of output
+    alone would rate them as equivalent.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/finished_output/P_frontier
+    reported: '0.87'
+    units: production frontier
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: sec-prod-str
+  kind: computation
+  passage: Both tools reach essentially the same production frontier, $0.87$, so any assessment of output
+    alone would rate them as equivalent.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/structured_fading/P_frontier
+    reported: '0.87'
+    units: production frontier
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: sec-c-fin
+  kind: computation
+  passage: 'Their competence frontiers end far apart: $0.15$ under the finished-output tool, $0.84$ under
+    the fading structured tool, and $0.70$ for the learner who used no tool.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/finished_output/C_final
+    reported: '0.15'
+    units: competence
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: sec-c-str
+  kind: computation
+  passage: 'Their competence frontiers end far apart: $0.15$ under the finished-output tool, $0.84$ under
+    the fading structured tool, and $0.70$ for the learner who used no tool.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/structured_fading/C_final
+    reported: '0.84'
+    units: competence
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: sec-c-none
+  kind: computation
+  passage: 'Their competence frontiers end far apart: $0.15$ under the finished-output tool, $0.84$ under
+    the fading structured tool, and $0.70$ for the learner who used no tool.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/no_tool/C_final
+    reported: '0.70'
+    units: competence
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: sec-j-fin
+  kind: computation
+  passage: Judgment separates in the same way, ending at $0.23$ and $0.89$ for the two tools.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/finished_output/J_final
+    reported: '0.23'
+    units: judgment
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: sec-j-str
+  kind: computation
+  passage: Judgment separates in the same way, ending at $0.23$ and $0.89$ for the two tools.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/structured_fading/J_final
+    reported: '0.89'
+    units: judgment
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: sec-col-fin
+  kind: computation
+  passage: Displayed output falls by 83.1% for the finished-output learner and by 10.3% for the structured-fading
+    learner.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/finished_output/collapse_pct
+    reported: 83.1%
+    units: percent fall on removal
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 1
+    scale: 1
+- id: sec-col-str
+  kind: computation
+  passage: Displayed output falls by 83.1% for the finished-output learner and by 10.3% for the structured-fading
+    learner.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/structured_fading/collapse_pct
+    reported: 10.3%
+    units: percent fall on removal
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 1
+    scale: 1
+- id: sec-col-none
+  kind: computation
+  passage: For the no-tool learner it falls by 23.9%, which here measures the lift the tool provides to
+    a learner who never practised with it.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /regimes/no_tool/collapse_pct
+    reported: 23.9%
+    units: percent fall on removal
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 1
+    scale: 1
+- id: sec-ratio
+  kind: computation
+  passage: The finished-output regime loses about 8 times as much as the structured one.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /summary/collapse_ratio_finished_over_structured
+    reported: '8'
+    units: ratio of falls on removal
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 0
+- id: sec-lambda
+  kind: computation
+  passage: The incorporation ratio, the share of the production advance that became durable capability,
+    with judgment weighted at $\lambda = 0.5$, is $0.10$ for the finished-output tool and $0.99$ for the
+    structured one.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /params/lambda_J
+    reported: '0.5'
+    units: judgment weight
+    conditions: stipulated
+    decimals: 1
+- id: sec-grf-fin
+  kind: computation
+  passage: The incorporation ratio, the share of the production advance that became durable capability,
+    with judgment weighted at $\lambda = 0.5$, is $0.10$ for the finished-output tool and $0.99$ for the
+    structured one.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /summary/grf_finished
+    reported: '0.10'
+    units: incorporation ratio
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: sec-grf-str
+  kind: computation
+  passage: The incorporation ratio, the share of the production advance that became durable capability,
+    with judgment weighted at $\lambda = 0.5$, is $0.10$ for the finished-output tool and $0.99$ for the
+    structured one.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /summary/grf_structured
+    reported: '0.99'
+    units: incorporation ratio
+    conditions: illustrative model, stipulated parameters, 30 sessions
+    decimals: 2
+- id: rob-jitter
+  kind: computation
+  passage: When the model's constants are perturbed by up to 15% in either direction across 2,000 draws
+    with a fixed seed, the finished-output regime ends below the structured regime in competence in every
+    draw and loses more output on tool removal in every draw.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /robustness/jitter_pct
+    reported: 15%
+    units: perturbation half-width
+    conditions: uniform multiplicative jitter
+    decimals: 0
+    scale: 1
+- id: rob-draws
+  kind: computation
+  passage: When the model's constants are perturbed by up to 15% in either direction across 2,000 draws
+    with a fixed seed, the finished-output regime ends below the structured regime in competence in every
+    draw and loses more output on tool removal in every draw.
+  evidence:
+    file: simulation/output/results.json
+    run_id: ratchet
+    pointer: /robustness/n_draws
+    reported: 2,000
+    units: draws
+    conditions: seed 20260711
+    decimals: 0
+- id: hutchins-nav
+  kind: source
+  passage: '@hutchins1995 shows a navigational fix computed across instruments, charts, procedures, and
+    a division of labour, a cognitive process whose parts are people and artifacts, with no single sailor
+    holding the whole computation.'
+  evidence:
+    citation_id: hutchins1995
+    locator: Publisher description (Crossref abstract)
+    verified: true
+    verification_note: DOI 10.7551/mitpress/1881.001.0001; the MIT Press description presents the navigation
+      team of a naval vessel as a cognitive and computational system whose properties differ from those
+      of its individual members.
+- id: ericsson-dp
+  kind: source
+  passage: '@ericsson1993 tie expert performance to deliberate practice, the effortful, feedback-rich,
+    individually targeted training that separates experts from the experienced.'
+  evidence:
+    citation_id: ericsson1993
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1037/0033-295X.100.3.363; the OpenAlex abstract explains expert performance
+      by prolonged deliberate practice and relates individual differences to amounts of it.
+- id: macnamara-variance
+  kind: source
+  passage: '@macnamara2014, in a meta-analysis of the practice literature, find that accumulated practice
+    explains a modest and strongly domain-dependent share of performance variance, on the order of a fifth
+    to a quarter in music and games and far less in education and the professions.'
+  evidence:
+    citation_id: macnamara2014
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1177/0956797614535810; the Crossref abstract reports 26% of variance for
+      games, 21% for music, 18% for sports, 4% for education and under 1% for professions.
+- id: tennie-ratchet
+  kind: source
+  passage: '@tennie2009 call it the ratchet: human populations retain modifications and build on them
+    across generations, whereas the traditions of other species remain within a zone of solutions each
+    individual could reinvent.'
+  evidence:
+    citation_id: tennie2009
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1098/rstb.2009.0052; the Crossref abstract contrasts the human ratchet effect
+      with chimpanzee traditions confined to a zone of latent solutions.
+- id: tomasello-forms
+  kind: source
+  passage: '@tomasello1993 attribute that fidelity to distinctively human forms of cultural learning,
+    imitative, instructed, and collaborative, which copy the intent and procedure behind an outcome as
+    well as the outcome itself.'
+  evidence:
+    citation_id: tomasello1993
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1017/S0140525X0003123X; the Crossref abstract names imitative, instructed
+      and collaborative learning and states that cultural learning allows a fidelity of transmission not
+      possible otherwise.
+- id: kapur-pf
+  kind: source
+  passage: The desirable-difficulties [@bjork2011] and productive-failure [@kapur2008] literatures agree,
+    from different starting points, that struggle at an appropriate level builds durable understanding,
+    and cognitive-load theory [@sweller1988] marks the opposite boundary, where difficulty without support
+    becomes overload.
+  evidence:
+    citation_id: kapur2008
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1080/07370000802212669; the OpenAlex abstract reports that students who
+      struggled with ill-structured problems outperformed on later transfer measures.
+- id: sweller-load
+  kind: source
+  passage: The desirable-difficulties [@bjork2011] and productive-failure [@kapur2008] literatures agree,
+    from different starting points, that struggle at an appropriate level builds durable understanding,
+    and cognitive-load theory [@sweller1988] marks the opposite boundary, where difficulty without support
+    becomes overload.
+  evidence:
+    citation_id: sweller1988
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1207/s15516709cog1202_4; the Crossref abstract argues that conventional
+      problem solving consumes processing capacity otherwise available for schema acquisition.
+- id: bastani-field
+  kind: source
+  passage: '@bastani2025, in a field experiment with about 1,000 secondary-school mathematics students,
+    found that access to an unrestricted model raised performance by about half during assisted practice
+    and then left students scoring below their tool-free peers once the model was withdrawn, while a guardrailed
+    version that guided without answering largely removed the harm.'
+  evidence:
+    citation_id: bastani2025
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1073/pnas.2422633122; the Crossref abstract reports nearly a thousand high-school
+      math students, a 48% grade improvement with GPT Base during practice, a 17% reduction relative to
+      never-access students once access was removed, and that the GPT Tutor safeguards largely mitigated
+      the harm.
+- id: kestin-effect
+  kind: source
+  passage: '@kestin2025 report a randomized trial in which an engineered physics tutor, built with scaffolding,
+    step-by-step guidance, and targeted feedback, produced a learning gain estimated at 0.73 to 1.3 standard
+    deviations over in-class active learning, in less time.'
+  evidence:
+    citation_id: kestin2025
+    locator: Results (quantile-regression effect size)
+    verified: true
+    verification_note: DOI 10.1038/s41598-025-97652-6; the open-access article text states that the quantile
+      regression gives an effect size of 0.73 to 1.3 standard deviations, and the abstract reports more
+      learning in less time than in-class active learning.
+- id: doshi-diversity
+  kind: source
+  passage: '@doshi2024 found that AI-generated ideas raise the assessed creativity of individual stories,
+    most for the least creative writers, while making stories more similar to one another, so optimizing
+    each learner''s output can reduce the diversity of a cohort while raising its average.'
+  evidence:
+    citation_id: doshi2024
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1126/sciadv.adn5290; the Crossref abstract reports more creative stories,
+      especially for less creative writers, and greater similarity among AI-enabled stories.
+- id: shumailov-collapse
+  kind: source
+  passage: 'Recursive dependence on generated material carries a distribution-level risk: @shumailov2024
+    show that models trained on their own output collapse toward the head of the distribution and lose
+    its tails.'
+  evidence:
+    citation_id: shumailov2024
+    locator: Abstract
+    verified: true
+    verification_note: DOI 10.1038/s41586-024-07566-y; the Crossref abstract states that training on model-generated
+      content causes irreversible defects in which the tails of the original distribution disappear.
+- id: distributed-genius-def
+  kind: definition
+  passage: 'We call the resulting object distributed genius: the spread of exceptional generative capability
+    across artifacts, notations, practices, institutions, tools, and learners, such that achievements
+    once dependent on rare individuals become navigable and extendable by many.'
+  rationale: Central definition of the paper.
+- id: omega-def
+  kind: definition
+  passage: Let $\Omega_t$ be the possibility-space of a domain at time $t$, the configurations its practitioners
+    can currently conceive, attempt, and recognize as belonging to the domain.
+  rationale: Defines the possibility-space on which the exemplar operator acts.
+- id: frontier-def
+  kind: definition
+  passage: For a learner $i$ on a domain of tasks, the \emph{production frontier} $P_i$ is the highest
+    quality of output $i$ can produce using all tools currently available.
+  rationale: Defines the three frontiers that the model and the measurement proposal separate.
+- id: regeneration-def
+  kind: definition
+  passage: 'We call this generative regeneration: the reconstruction of a fixed cultural achievement as
+    a variable, interactive, and counterfactual field.'
+  rationale: Names the interactive reconstruction of an exemplar.
+- id: competence-decoupling
+  kind: definition
+  passage: Competence is the capacity that survives decoupling, and a pedagogy indifferent to it optimizes
+    the wrong frontier.
+  rationale: Operational restatement of the competence frontier used by the tool-removal test.
+- id: model-illustrative
+  kind: assumption
+  passage: 'The model is illustrative: its parameters are stipulated to instantiate the definitions above
+    and are not estimated from learners, so its numbers describe the model''s logic and are not measurements
+    of teaching.'
+  rationale: 'States the epistemic status of the simulation: parameters are chosen to express the definitions
+    and do not estimate real learners.'
+- id: production-law
+  kind: assumption
+  passage: Production is an algebraic function of competence and the current assistance $a$, $P = C +
+    a\,(\kappa - C)$, with tool ceiling $\kappa = 0.95$, so that at full assistance the learner produces
+    near the tool's level regardless of their own, and at zero assistance production equals competence.
+  rationale: The linear interpolation between competence and tool ceiling is a modelling choice.
+- id: difficulty-term
+  kind: assumption
+  passage: 'A desirable-difficulty term, peaked at that gap and vanishing when the task is trivial, encodes
+    the finding documented from three directions by @bjork2011, @kapur2008, and @{sweller1988}: learning
+    is greatest at an intermediate, effortful level of challenge and least when the work is done for the
+    learner or left entirely unsupported.'
+  rationale: The peaked difficulty term encodes the cited learning literatures as a functional assumption.
+- id: regimes
+  kind: assumption
+  passage: Three regimes apply the same dynamics with different interaction signals.
+  rationale: The regimes differ only in interaction signals, which isolates interaction architecture as
+    the manipulated variable.
+- id: central-prediction
+  kind: interpretation
+  passage: Where the interaction supplies output without building capacity, the change in production over
+    a course of study greatly exceeds the change in competence and judgment,
+  rationale: Central prediction derived from the frontier definitions.
+- id: below-no-tool
+  kind: interpretation
+  passage: 'The comparison with the no-tool learner is the most informative: the finished-output learner
+    ends less competent than a learner who never had a tool, while appearing more accomplished than either
+    throughout the course, so a tool that maximizes visible output can leave a learner below the level
+    reached by unaided practice.'
+  rationale: 'Read from results.json: finished-output competence 0.147 against no-tool 0.704, with higher
+    production throughout.'
+- id: rose-077
+  kind: interpretation
+  passage: In the first case production rose by 0.77 above the novice level and almost none of that advance
+    was retained by the learner; in the second, the production the learner displays at the end is production
+    they can generate unaided.
+  rationale: 'Derived: finished-output production frontier 0.87 minus the initial competence 0.10 (both
+    in results.json) gives 0.77.'
+- id: robust-every-draw
+  kind: interpretation
+  passage: When the model's constants are perturbed by up to 15% in either direction across 2,000 draws
+    with a fixed seed, the finished-output regime ends below the structured regime in competence in every
+    draw and loses more output on tool removal in every draw.
+  rationale: Read from /robustness/frac_competence_ordering = 1.0 and /robustness/frac_collapse_ordering
+    = 1.0 over 2,000 draws.
+- id: model-limit
+  kind: interpretation
+  passage: The model cannot determine the size of the real gap in a real classroom, because its parameters
+    were chosen to express the definitions; only measurement can supply them.
+  rationale: Scope limit on what the illustrative model can establish.
+- id: falsifier
+  kind: interpretation
+  passage: If adequately powered trials find that unassisted competence and judgment track assisted production
+    regardless of how the interaction is arranged, so that finished-output and fading structured tools
+    leave learners equally capable once the tool is removed, the three-frontier distinction collapses
+    and the framework is wrong.
+  rationale: States the observation that would refute the framework.
+- id: kestin-consistent
+  kind: interpretation
+  passage: Without validating the framework, it is consistent with its more specific claim that interaction
+    architecture determines whether AI tutoring works, so that a scaffolded tutor and an answer-dispensing
+    chatbot are two treatments with opposite effects and not two doses of one treatment.
+  rationale: Interpretive link between the cited trial and the framework; not a test of it.
+- id: measure-norm
+  kind: normative
+  passage: Distributed genius becomes individual capability only in an environment that at times declines
+    to perform the work on the learner's behalf, and the appropriate measure of a pedagogy is the capability
+    that remains when the tool is switched off.
+  rationale: Normative conclusion about assessment drawn from the framework.
+- id: withdrawal-design
+  kind: normative
+  passage: The design goal is a learner who can function when the tool is absent, whether or not the tool
+    was used during learning.
+  rationale: Normative design goal.
+runs:
+- id: ratchet
+  required: true
+  record: verification/ratchet.json

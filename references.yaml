@@ -1,0 +1,379 @@
+# CSL references with stable IDs; cite with Pandoc [@id] syntax.
+# Migrated from the legacy inline bibliography. Entries with a DOI were resolved through doi.org
+# content negotiation (CSL-JSON) and checked for year and title; others were matched in Crossref
+# or entered by hand. Provenance per entry is in sources.md.
+references:
+- id: bastani2025
+  type: article-journal
+  title: 'Generative AI without guardrails can harm learning: Evidence from high school mathematics'
+  author:
+  - given: Hamsa
+    family: Bastani
+  - given: Osbert
+    family: Bastani
+  - given: Alp
+    family: Sungu
+  - given: Haosen
+    family: Ge
+  - given: Özge
+    family: Kabakcı
+  - given: Rei
+    family: Mariman
+  container-title: Proceedings of the National Academy of Sciences
+  volume: '122'
+  issue: '26'
+  DOI: 10.1073/pnas.2422633122
+  issued:
+    date-parts:
+    - - 2025
+  page: e2422633122
+- id: bjork2011
+  type: chapter
+  title: 'Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance
+    learning'
+  author:
+  - family: Bjork
+    given: Elizabeth L.
+  - family: Bjork
+    given: Robert A.
+  editor:
+  - family: Gernsbacher
+    given: Morton Ann
+  - family: Pew
+    given: Richard W.
+  - family: Hough
+    given: Leaetta M.
+  - family: Pomerantz
+    given: James R.
+  container-title: 'Psychology and the real world: Essays illustrating fundamental contributions to society'
+  page: 56-64
+  publisher: Worth Publishers
+  publisher-place: New York
+  issued:
+    date-parts:
+    - - 2011
+- id: boyd1985
+  type: book
+  title: Culture and the Evolutionary Process
+  author:
+  - family: Boyd
+    given: Robert
+  - family: Richerson
+    given: Peter J.
+  publisher: University of Chicago Press
+  publisher-place: Chicago
+  issued:
+    date-parts:
+    - - 1985
+- id: brynjolfsson2025
+  type: article-journal
+  title: Generative AI at Work
+  author:
+  - given: Erik
+    family: Brynjolfsson
+  - given: Danielle
+    family: Li
+  - given: Lindsey
+    family: Raymond
+  container-title: The Quarterly Journal of Economics
+  volume: '140'
+  issue: '2'
+  page: 889-942
+  DOI: 10.1093/qje/qjae044
+  issued:
+    date-parts:
+    - - 2025
+- id: clark1998
+  type: article-journal
+  title: The Extended Mind
+  author:
+  - given: A.
+    family: Clark
+  - given: D.
+    family: Chalmers
+  container-title: Analysis
+  volume: '58'
+  issue: '1'
+  page: 7-19
+  DOI: 10.1093/analys/58.1.7
+  issued:
+    date-parts:
+    - - 1998
+- id: collins1989
+  type: chapter
+  title: 'Cognitive apprenticeship: Teaching the crafts of reading, writing, and mathematics'
+  author:
+  - family: Collins
+    given: Allan
+  - family: Brown
+    given: John Seely
+  - family: Newman
+    given: Susan E.
+  editor:
+  - family: Resnick
+    given: Lauren B.
+  container-title: 'Knowing, learning, and instruction: Essays in honor of Robert Glaser'
+  page: 453-494
+  publisher: Lawrence Erlbaum Associates
+  publisher-place: Hillsdale, NJ
+  issued:
+    date-parts:
+    - - 1989
+- id: csikszentmihalyi1999
+  type: chapter
+  title: Implications of a Systems Perspective for the Study of Creativity
+  author:
+  - given: Mihaly
+    family: Csikszentmihalyi
+  container-title: Handbook of Creativity
+  page: 313-336
+  publisher: Cambridge University Press
+  DOI: 10.1017/cbo9780511807916.018
+  URL: http://dx.doi.org/10.1017/cbo9780511807916.018
+  issued:
+    date-parts:
+    - - 1999
+  editor:
+  - family: Sternberg
+    given: Robert J.
+  publisher-place: Cambridge
+- id: doshi2024
+  type: article-journal
+  title: Generative AI enhances individual creativity but reduces the collective diversity of novel content
+  author:
+  - given: Anil R.
+    family: Doshi
+  - given: Oliver P.
+    family: Hauser
+  container-title: Science Advances
+  volume: '10'
+  issue: '28'
+  DOI: 10.1126/sciadv.adn5290
+  issued:
+    date-parts:
+    - - 2024
+  page: eadn5290
+- id: ericsson1993
+  type: article-journal
+  title: The role of deliberate practice in the acquisition of expert performance.
+  author:
+  - given: K. Anders
+    family: Ericsson
+  - given: Ralf T.
+    family: Krampe
+  - given: Clemens
+    family: Tesch-Römer
+  container-title: Psychological Review
+  volume: '100'
+  issue: '3'
+  page: 363-406
+  DOI: 10.1037/0033-295x.100.3.363
+  issued:
+    date-parts:
+    - - 1993
+- id: henrich2016
+  type: book
+  title: 'The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species,
+    and Making Us Smarter'
+  author:
+  - given: Joseph
+    family: Henrich
+  publisher: Princeton University Press
+  DOI: 10.1515/9781400873296
+  URL: http://dx.doi.org/10.1515/9781400873296
+  issued:
+    date-parts:
+    - - 2016
+  publisher-place: Princeton, NJ
+- id: hutchins1995
+  type: book
+  title: Cognition in the Wild
+  author:
+  - given: Edwin
+    family: Hutchins
+  publisher: MIT Press
+  DOI: 10.7551/mitpress/1881.001.0001
+  issued:
+    date-parts:
+    - - 1995
+  publisher-place: Cambridge, MA
+- id: kapur2008
+  type: article-journal
+  title: Productive Failure
+  author:
+  - given: Manu
+    family: Kapur
+  container-title: Cognition and Instruction
+  volume: '26'
+  issue: '3'
+  page: 379-424
+  DOI: 10.1080/07370000802212669
+  issued:
+    date-parts:
+    - - 2008
+- id: kauffman2000
+  type: book
+  title: Investigations
+  author:
+  - given: Stuart A
+    family: Kauffman
+  publisher: Oxford University Press
+  DOI: 10.1093/oso/9780195121049.001.0001
+  issued:
+    date-parts:
+    - - 2000
+  publisher-place: New York
+- id: kestin2025
+  type: article-journal
+  title: 'AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based
+    design in an authentic educational setting'
+  author:
+  - given: Greg
+    family: Kestin
+  - given: Kelly
+    family: Miller
+  - given: Anna
+    family: Klales
+  - given: Timothy
+    family: Milbourne
+  - given: Gregorio
+    family: Ponti
+  container-title: Scientific Reports
+  volume: '15'
+  issue: '1'
+  DOI: 10.1038/s41598-025-97652-6
+  URL: http://dx.doi.org/10.1038/s41598-025-97652-6
+  issued:
+    date-parts:
+    - - 2025
+  page: 17458
+- id: macnamara2014
+  type: article-journal
+  title: 'Deliberate Practice and Performance in Music, Games, Sports, Education, and Professions: A Meta-Analysis'
+  author:
+  - given: Brooke N.
+    family: Macnamara
+  - given: David Z.
+    family: Hambrick
+  - given: Frederick L.
+    family: Oswald
+  container-title: Psychological Science
+  volume: '25'
+  issue: '8'
+  page: 1608-1618
+  DOI: 10.1177/0956797614535810
+  issued:
+    date-parts:
+    - - 2014
+- id: shumailov2024
+  type: article-journal
+  title: AI models collapse when trained on recursively generated data
+  author:
+  - given: Ilia
+    family: Shumailov
+  - given: Zakhar
+    family: Shumaylov
+  - given: Yiren
+    family: Zhao
+  - given: Nicolas
+    family: Papernot
+  - given: Ross
+    family: Anderson
+  - given: Yarin
+    family: Gal
+  container-title: Nature
+  volume: '631'
+  issue: '8022'
+  page: 755-759
+  DOI: 10.1038/s41586-024-07566-y
+  issued:
+    date-parts:
+    - - 2024
+- id: sweller1988
+  type: article-journal
+  title: 'Cognitive Load During Problem Solving: Effects on Learning'
+  author:
+  - given: John
+    family: Sweller
+  container-title: Cognitive Science
+  volume: '12'
+  issue: '2'
+  page: 257-285
+  DOI: 10.1207/s15516709cog1202_4
+  issued:
+    date-parts:
+    - - 1988
+- id: tennie2009
+  type: article-journal
+  title: 'Ratcheting up the ratchet: on the evolution of cumulative culture'
+  author:
+  - given: Claudio
+    family: Tennie
+  - given: Josep
+    family: Call
+  - given: Michael
+    family: Tomasello
+  container-title: 'Philosophical Transactions of the Royal Society B: Biological Sciences'
+  volume: '364'
+  issue: '1528'
+  page: 2405-2415
+  DOI: 10.1098/rstb.2009.0052
+  issued:
+    date-parts:
+    - - 2009
+- id: tomasello1993
+  type: article-journal
+  title: Cultural learning
+  author:
+  - given: Michael
+    family: Tomasello
+  - given: Ann Cale
+    family: Kruger
+  - given: Hilary Horn
+    family: Ratner
+  container-title: Behavioral and Brain Sciences
+  volume: '16'
+  issue: '3'
+  page: 495-511
+  DOI: 10.1017/s0140525x0003123x
+  issued:
+    date-parts:
+    - - 1993
+- id: vygotsky1978
+  type: book
+  title: 'Mind in Society: The Development of Higher Psychological Processes'
+  author:
+  - family: Vygotsky
+    given: L. S.
+  editor:
+  - family: Cole
+    given: Michael
+  - family: John-Steiner
+    given: Vera
+  - family: Scribner
+    given: Sylvia
+  - family: Souberman
+    given: Ellen
+  publisher: Harvard University Press
+  publisher-place: Cambridge, MA
+  issued:
+    date-parts:
+    - - 1978
+- id: wood1976
+  type: article-journal
+  title: The role of tutoring in problem solving
+  author:
+  - given: David
+    family: Wood
+  - given: Jerome S.
+    family: Bruner
+  - given: Gail
+    family: Ross
+  container-title: Journal of Child Psychology and Psychiatry
+  volume: '17'
+  issue: '2'
+  page: 89-100
+  DOI: 10.1111/j.1469-7610.1976.tb00381.x
+  issued:
+    date-parts:
+    - - 1976

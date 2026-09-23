@@ -69,3 +69,8 @@ Vygotsky, L. S. (1978). *Mind in society: The development of higher psychologica
 
 Wood, D., Bruner, J. S., & Ross, G. (1976). The role of tutoring in problem solving. *Journal of Child Psychology and Psychiatry*, 17(2), 89–100.
 — Verified (Vol. 17(2), 89–100; doi:10.1111/j.1469-7610.1976.tb00381.x). Origin of "scaffolding": a tutor manages what the learner cannot yet, then withdraws support. Supports the fading condition.
+
+## Structured bibliography (2026-09-23)
+
+The inline reference list was migrated to references.yaml (CSL) and in-text citations to Pandoc [@id] syntax. Fourteen entries were matched automatically in Crossref and resolved through doi.org; csikszentmihalyi1999, henrich2016 and kestin2025 were matched by hand to their DOI records (Sternberg added as editor of the Handbook of Creativity; the Cambridge record gives pages 313-336, which the entry follows). Four entries without DOIs were entered by hand from the legacy text after confirming the works in OpenAlex: bjork2011 (chapter in Gernsbacher et al., Worth), boyd1985 (University of Chicago Press), collins1989 (chapter in Resnick, Erlbaum) and vygotsky1978 (Harvard University Press, edited by Cole, John-Steiner, Scribner and Souberman). Source claims in claims.yaml were checked against Crossref or OpenAlex abstracts and, for Kestin et al., the open-access article text.
+The Bastani et al. abstract states that the safeguards "largely mitigated" the harm of unrestricted access; the sentence that said the guardrailed version "removed the harm" now says it "largely removed the harm".

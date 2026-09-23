@@ -2,6 +2,17 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-09-23 — structured-evidence migration
+
+Structured-evidence migration (references and claims).
+- references.yaml: 21 CSL entries. 14 matched automatically in Crossref and resolved through doi.org; csikszentmihalyi1999, henrich2016 and kestin2025 matched by hand to their DOI records (Sternberg added as editor; henrich2016 given its full subtitle; article numbers added for bastani2025, doshi2024 and kestin2025). Entered by hand without DOIs after confirming the works in OpenAlex: bjork2011, boyd1985, collins1989, vygotsky1978. In-text author-year citations converted to Pandoc [@id] syntax; the legacy reference list replaced by the citeproc-rendered list (Chicago author-date).
+- Citation rephrasings: "in Kauffman's (2000) sense" -> "in the sense of @kauffman2000"; "Henrich's (2016) collective brain" -> "The collective brain of @henrich2016"; "@sweller1988:" written as "@{sweller1988}:" so the checker does not read the colon as part of the key.
+- Correction: Bastani et al. (2025) report that the GPT Tutor safeguards "largely mitigated" the harm; "a guardrailed version ... removed the harm" -> "... largely removed the harm". Bibliographic: csikszentmihalyi1999 pages 313-335 -> 313-336 per the Cambridge record.
+- claims.yaml: 63 claims (34 computation, 11 source, 5 definition, 4 assumption, 7 interpretation, 2 normative). Every model number in the abstract, body and figure caption is bound to simulation/output/results.json; "production rose by 0.77" is bound as an interpretation (0.87 minus the initial 0.10). Source claims checked against Crossref or OpenAlex abstracts; the Kestin et al. 0.73-1.3 SD range was confirmed in the open-access article text.
+- Not bound (support not retrievable or only partly confirmed): Csikszentmihalyi's three-part systems model (abstract confirms only the systems perspective); Clark and Chalmers's active externalism; Vygotsky's internalization; Boyd and Richerson's population dynamics; Bjork and Bjork on desirable difficulties; Collins et al. on cognitive apprenticeship; Wood et al. on scaffolding; Brynjolfsson et al.'s claim that novice output moved closest to that of the best (abstract confirms the average gain and its concentration among less experienced workers only); Kestin et al.'s own statement of the study's limits (retention and prompt engineering found in the text, but not the full list).
+- Execution receipt: run id ratchet (uv run python run_all.py); results.json reproduced byte for byte.
+- metadata claims_target: claim-ledger.
+
 ## 2026-09-23 — prose revision
 
 Prose rewritten against the house standards. Headings made descriptive (Introduction, Exemplars and the expansion of possibility-space, Cultural ratchets and individual acquisition, Production, competence, and judgment frontiers, Generative regeneration of exemplars, A model of false ratcheting, Design conditions for genuine ratcheting, Measurement and falsification, Conclusion).
