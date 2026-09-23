@@ -2,6 +2,21 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-09-23 — prose revision
+
+Prose rewritten against the house standards. Headings made descriptive (Introduction, Exemplars and the expansion of possibility-space, Cultural ratchets and individual acquisition, Production, competence, and judgment frontiers, Generative regeneration of exemplars, A model of false ratcheting, Design conditions for genuine ratcheting, Measurement and falsification, Conclusion).
+
+Tic counts before -> after: 'rather than' 22 -> 0; inline ', not X' 4 -> 0; negate-pivot 3 -> 0; 'not X but Y' 5 -> 0; 'this paper' 3 -> 0; 'exactly/precisely' 2 -> 0; 'merely/simply' 3 -> 0; 'worth' 1 -> 0.
+
+Corrections found during the pass:
+  - "production advanced almost a full unit" for the finished-output regime: the advance in results.json terms is P_frontier - C0 = 0.870 - 0.10 = 0.77; now stated as 0.77.
+  - The no-tool learner's 23.9% drop on removal was described as "the honest cost of losing a tool they had learned to work with". That learner never used the tool; the drop is the lift the tool gives (at a = 0.9) over the learner's unaided competence 0.704. Text now says so.
+  - Figure caption now gives the rounded collapse percentages shown on the panel (83, 10, 24) alongside the text's 83.1/10.3/23.9.
+
+Grid audit: no thresholds, optima, or crossovers; the model is a deterministic 30-step recursion, the production frontier is the maximum over the course trajectory, and the robustness fractions (1.0 of 2,000 draws) are counts. Prose numbers match results.json (0.87/0.868, 0.147 -> 0.15, 0.843 -> 0.84, 0.704 -> 0.70, J 0.229/0.886, collapse 83.1/10.3/23.9, ratio 8.07, GRF 0.096/0.986). results.json unchanged by the re-run.
+
+Title left unchanged ("and When It Only Appears To" is slightly rhetorical but not erroneous).
+
 ## 2026-07-11 — Initial draft, build, and gate pass
 
 Scope: paper written end to end from the seed conversation (`chats/chat.md`), with an illustrative simulation. The drawing-roadmap origin of the seed was dropped; the paper stands alone.

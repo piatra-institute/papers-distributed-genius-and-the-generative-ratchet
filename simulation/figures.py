@@ -40,7 +40,7 @@ def _panel_regime(ax, reg, title, gap_color, close_note):
     ax.spines[["top", "right"]].set_visible(False)
     ax.text(0.97, 0.06, close_note, transform=ax.transAxes, ha="right",
             va="bottom", fontsize=8, color=MUTED)
-    ax.legend(fontsize=7.5, frameon=False, loc="upper left")
+    ax.legend(fontsize=7.5, frameon=False, loc="center right")
 
 
 def plot_frontiers(results, path):
@@ -50,13 +50,13 @@ def plot_frontiers(results, path):
     fig, (axA, axB, axC) = plt.subplots(1, 3, figsize=(13.5, 4.4))
 
     _panel_regime(
-        axA, fin, "Finished-output tool: false ratcheting", WARM,
-        f"gap persists · competence ends at {fin['C_final']:.2f}")
+        axA, fin, "Finished-output tool (constant assistance)", WARM,
+        f"final competence {fin['C_final']:.2f}")
     axA.set_ylabel("frontier level", fontsize=9)
 
     _panel_regime(
-        axB, stru, "Structured, fading tool: genuine ratcheting", GREEN,
-        f"gap closes · competence ends at {stru['C_final']:.2f}")
+        axB, stru, "Structured tool, assistance faded to zero", GREEN,
+        f"final competence {stru['C_final']:.2f}")
 
     # --- Panel C: the tool-removal test ---
     order = ["finished_output", "structured_fading", "no_tool"]
@@ -75,11 +75,11 @@ def plot_frontiers(results, path):
                  fontsize=8, color=WARM, va="center")
     axC.set_xticks(xs)
     axC.set_xticklabels(labels, fontsize=8.5)
-    axC.set_ylim(0, 1.0)
+    axC.set_ylim(0, 1.2)
     axC.set_ylabel("output on a fresh task", fontsize=9)
-    axC.set_title("Remove the tool: what remains", fontsize=10, color=INK)
+    axC.set_title("Output with and without the tool at course end", fontsize=10, color=INK)
     axC.spines[["top", "right"]].set_visible(False)
-    axC.legend(fontsize=7.5, frameon=False, loc="upper right")
+    axC.legend(fontsize=7.5, frameon=False, loc="upper center", ncol=2)
 
     fig.tight_layout()
     fig.savefig(path, dpi=150, bbox_inches="tight")

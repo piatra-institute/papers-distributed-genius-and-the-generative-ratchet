@@ -1,0 +1,10 @@
+{
+  "manuscript_sha256": "6252f9dc7be7797968ef23089b0813bc1b0e264d1a5d3bec0e1f64092376e390",
+  "full_read": true,
+  "argument_review": true,
+  "structure_review": true,
+  "voice_review": true,
+  "source_review": true,
+  "final_read": true,
+  "notes": "Prose revision: descriptive headings with a closing Conclusion; 'rather than' 22 -> 0, 'not X but Y' 5 -> 0, negate-pivots 3 -> 0, 'this paper' 3 -> 0; abstract rewritten (253 words); epigrammatic closing lines removed; two misstatements about the model corrected (the 'almost a full unit' production advance and the interpretation of the no-tool learner's 23.9% drop); all numbers and citations preserved."
+}

@@ -1,0 +1,20 @@
+{
+  "pdf_sha256": "110937a3fbe4cb5952cb03021e830e58d48348db39c2dca58d2f2d3921cf7e8a",
+  "page_count": 12,
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "all_pages_inspected": true,
+  "notes": "All 12 pages inspected after the prose revision; figure panel titles replaced with descriptive ones, the legends moved off the production curve and off the bars and arrows of the tool-removal panel. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (99db0ebd9035 to 110937a3fbe4); the rendered text is byte-for-byte identical and no page was re-inspected."
+}
